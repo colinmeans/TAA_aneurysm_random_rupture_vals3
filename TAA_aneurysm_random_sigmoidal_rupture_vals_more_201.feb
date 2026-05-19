@@ -33,11 +33,11 @@
     <material id="1" name="Material1" type="FSG">
       <density>1</density>
       <k>2000.0</k>
-      <elastin_injury_val lc="2" type="math">0.80 * ((1./(1. + exp(-4. * (Z + 6.2))))*(1./(1. + exp(-4. * (6.2 - Z)))) * (0.31 * (0.76 * exp(-(abs((Z - 1.92) / 5.88) ^ 5.56 + abs(atan2(sin(atan2(Y, X) + 4.48), cos(atan2(Y, X) + 4.48)) / 2.29) ^ 4.38)) +
+      <elastin_injury_val lc="2" type="math">0.70 * ((1./(1. + exp(-4. * (Z + 6.2))))*(1./(1. + exp(-4. * (6.2 - Z)))) * (0.31 * (0.76 * exp(-(abs((Z - 1.92) / 5.88) ^ 5.56 + abs(atan2(sin(atan2(Y, X) + 4.48), cos(atan2(Y, X) + 4.48)) / 2.29) ^ 4.38)) +
 0.79 * exp(-(abs((Z - -2.20) / 5.50) ^ 3.96 + abs(atan2(sin(atan2(Y, X) + -2.37), cos(atan2(Y, X) + -2.37)) / 3.03) ^ 5.53)) +
 0.74 * exp(-(abs((Z - -1.45) / 5.79) ^ 5.53 + abs(atan2(sin(atan2(Y, X) + 2.31), cos(atan2(Y, X) + 2.31)) / 3.13) ^ 5.98)) +
 0.95 * exp(-(abs((Z - -1.35) / 7.76) ^ 4.59 + abs(atan2(sin(atan2(Y, X) + -3.42), cos(atan2(Y, X) + -3.42)) / 3.15) ^ 5.10)))))</elastin_injury_val>
-      <production_mechanosensitivity_injury_val lc="2" type="math">0.60 * ((1./(1. + exp(-4. * (Z + 6.2))))*(1./(1. + exp(-4. * (6.2 - Z)))) * (0.31 * (0.76 * exp(-(abs((Z - 1.92) / 5.88) ^ 5.56 + abs(atan2(sin(atan2(Y, X) + 4.48), cos(atan2(Y, X) + 4.48)) / 2.29) ^ 4.38)) +
+      <production_mechanosensitivity_injury_val lc="2" type="math">0.73 * ((1./(1. + exp(-4. * (Z + 6.2))))*(1./(1. + exp(-4. * (6.2 - Z)))) * (0.31 * (0.76 * exp(-(abs((Z - 1.92) / 5.88) ^ 5.56 + abs(atan2(sin(atan2(Y, X) + 4.48), cos(atan2(Y, X) + 4.48)) / 2.29) ^ 4.38)) +
 0.79 * exp(-(abs((Z - -2.20) / 5.50) ^ 3.96 + abs(atan2(sin(atan2(Y, X) + -2.37), cos(atan2(Y, X) + -2.37)) / 3.03) ^ 5.53)) +
 0.74 * exp(-(abs((Z - -1.45) / 5.79) ^ 5.53 + abs(atan2(sin(atan2(Y, X) + 2.31), cos(atan2(Y, X) + 2.31)) / 3.13) ^ 5.98)) +
 0.95 * exp(-(abs((Z - -1.35) / 7.76) ^ 4.59 + abs(atan2(sin(atan2(Y, X) + -3.42), cos(atan2(Y, X) + -3.42)) / 3.15) ^ 5.10)))))</production_mechanosensitivity_injury_val>
